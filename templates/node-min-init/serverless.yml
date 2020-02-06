@@ -1,0 +1,12 @@
+service: your-service-name
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  # You can pass the region that is closer to you and your potential users
+  region: eu-central-1
+
+functions:
+  main:
+    handler: index.main
+
