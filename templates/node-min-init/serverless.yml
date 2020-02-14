@@ -5,6 +5,7 @@ provider:
   runtime: nodejs10.x
   # You can pass the region that is closer to you and your potential users
   region: eu-central-1
+  versionFunctions: false
 
 functions:
   main:
