@@ -1,4 +1,4 @@
-module.exports.main = async event => {
+module.exports.main = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify(
